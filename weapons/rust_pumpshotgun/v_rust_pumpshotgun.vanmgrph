@@ -91,6 +91,60 @@
 					m_id = 598710421
 				}
 			},
+			{
+				_class = "CAudioAnimTag"
+				m_name = "pump"
+				m_tagID = 
+				{
+					m_id = 1710459768
+				}
+				m_clipName = "rust_pumpshotgun.pump"
+			},
+			{
+				_class = "CAudioAnimTag"
+				m_name = "pump_slow"
+				m_tagID = 
+				{
+					m_id = 1418262551
+				}
+				m_clipName = "rust_pumpshotgun.pumpslow"
+			},
+			{
+				_class = "CAudioAnimTag"
+				m_name = "insert"
+				m_tagID = 
+				{
+					m_id = 374473470
+				}
+				m_clipName = "rust_pumpshotgun.insert"
+			},
+			{
+				_class = "CAudioAnimTag"
+				m_name = "reload_start"
+				m_tagID = 
+				{
+					m_id = 2015620790
+				}
+				m_clipName = "rust_pumpshotgun.reload"
+			},
+			{
+				_class = "CAudioAnimTag"
+				m_name = "deploy"
+				m_tagID = 
+				{
+					m_id = 1315548794
+				}
+				m_clipName = "rust_pumpshotgun.deploy"
+			},
+			{
+				_class = "CAudioAnimTag"
+				m_name = "pump_forwards"
+				m_tagID = 
+				{
+					m_id = 38678525
+				}
+				m_clipName = "rust_pumpshotgun.pump-forward"
+			},
 		]
 	}
 	m_pMovementManager = 
@@ -114,6 +168,7 @@
 		[
 			{
 				_class = "CAnimGraphGeneralSettings"
+				m_iGridSnap = 16
 			},
 			{
 				_class = "CAnimGraphNetworkSettings"
@@ -151,7 +206,19 @@
 					m_id = 96557273
 				}
 				m_networkMode = "ClientSimulate"
-				m_tagSpans = [  ]
+				m_sNote = ""
+				m_tagSpans = 
+				[
+					{
+						_class = "CAnimTagSpan"
+						m_id = 
+						{
+							m_id = 1418262551
+						}
+						m_fStartCycle = 0.337699
+						m_fDuration = 0.662301
+					},
+				]
 				m_sequenceName = "fire1"
 				m_playbackSpeed = 1.0
 				m_bLoop = false
@@ -172,6 +239,7 @@
 					m_id = 206872258
 				}
 				m_networkMode = "ClientSimulate"
+				m_sNote = ""
 				m_childID = 
 				{
 					m_id = 1714022296
@@ -193,7 +261,19 @@
 					m_id = 577670065
 				}
 				m_networkMode = "ClientSimulate"
-				m_tagSpans = [  ]
+				m_sNote = ""
+				m_tagSpans = 
+				[
+					{
+						_class = "CAnimTagSpan"
+						m_id = 
+						{
+							m_id = 2015620790
+						}
+						m_fStartCycle = 0.0
+						m_fDuration = 1.0
+					},
+				]
 				m_sequenceName = "reload_start"
 				m_playbackSpeed = 3.0
 				m_bLoop = false
@@ -208,13 +288,25 @@
 			{
 				_class = "CSequenceAnimNode"
 				m_sName = "Unnamed"
-				m_vecPosition = [ -451.0, -107.0 ]
+				m_vecPosition = [ -464.0, -128.0 ]
 				m_nNodeID = 
 				{
 					m_id = 857159836
 				}
 				m_networkMode = "ClientSimulate"
-				m_tagSpans = [  ]
+				m_sNote = ""
+				m_tagSpans = 
+				[
+					{
+						_class = "CAnimTagSpan"
+						m_id = 
+						{
+							m_id = 374473470
+						}
+						m_fStartCycle = 0.0
+						m_fDuration = 1.0
+					},
+				]
 				m_sequenceName = "reload_insert"
 				m_playbackSpeed = 1.3
 				m_bLoop = false
@@ -235,7 +327,19 @@
 					m_id = 1212816174
 				}
 				m_networkMode = "ClientSimulate"
-				m_tagSpans = [  ]
+				m_sNote = ""
+				m_tagSpans = 
+				[
+					{
+						_class = "CAnimTagSpan"
+						m_id = 
+						{
+							m_id = 38678525
+						}
+						m_fStartCycle = 0.294668
+						m_fDuration = 0.705332
+					},
+				]
 				m_sequenceName = "reload_end"
 				m_playbackSpeed = 1.5
 				m_bLoop = false
@@ -250,13 +354,25 @@
 			{
 				_class = "CSequenceAnimNode"
 				m_sName = "Unnamed"
-				m_vecPosition = [ -648.0, -177.0 ]
+				m_vecPosition = [ -656.0, -192.0 ]
 				m_nNodeID = 
 				{
 					m_id = 1421775535
 				}
 				m_networkMode = "ClientSimulate"
-				m_tagSpans = [  ]
+				m_sNote = ""
+				m_tagSpans = 
+				[
+					{
+						_class = "CAnimTagSpan"
+						m_id = 
+						{
+							m_id = 1315548794
+						}
+						m_fStartCycle = 0.0
+						m_fDuration = 1.0
+					},
+				]
 				m_sequenceName = "deploy"
 				m_playbackSpeed = 2.0
 				m_bLoop = false
@@ -277,7 +393,19 @@
 					m_id = 1631504389
 				}
 				m_networkMode = "ClientSimulate"
-				m_tagSpans = [  ]
+				m_sNote = ""
+				m_tagSpans = 
+				[
+					{
+						_class = "CAnimTagSpan"
+						m_id = 
+						{
+							m_id = 1710459768
+						}
+						m_fStartCycle = 0.325538
+						m_fDuration = 0.674462
+					},
+				]
 				m_sequenceName = "fire2"
 				m_playbackSpeed = 1.5
 				m_bLoop = false
@@ -298,6 +426,7 @@
 					m_id = 1714022296
 				}
 				m_networkMode = "ClientSimulate"
+				m_sNote = ""
 				m_states = 
 				[
 					{
@@ -961,6 +1090,7 @@
 					m_id = 2060363704
 				}
 				m_networkMode = "ClientSimulate"
+				m_sNote = ""
 				m_tagSpans = [  ]
 				m_sequenceName = "idle"
 				m_playbackSpeed = 1.0
@@ -976,13 +1106,25 @@
 			{
 				_class = "CSequenceAnimNode"
 				m_sName = "Unnamed"
-				m_vecPosition = [ -440.0, -160.0 ]
+				m_vecPosition = [ -448.0, -208.0 ]
 				m_nNodeID = 
 				{
 					m_id = 2065450542
 				}
 				m_networkMode = "ClientSimulate"
-				m_tagSpans = [  ]
+				m_sNote = ""
+				m_tagSpans = 
+				[
+					{
+						_class = "CAnimTagSpan"
+						m_id = 
+						{
+							m_id = 374473470
+						}
+						m_fStartCycle = 0.352666
+						m_fDuration = 0.647334
+					},
+				]
 				m_sequenceName = "reload_insert"
 				m_playbackSpeed = 1.3
 				m_bLoop = false

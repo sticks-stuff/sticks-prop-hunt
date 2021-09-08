@@ -1,0 +1,40 @@
+infobar 
+{
+	// background-color: red;
+	position: absolute;
+	bottom: 1.5%;
+	width: 100%;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	.infobarinner 
+	{
+		background-color: rgba(0, 0, 0, 0.5);
+		padding-left: 1%;
+		padding-right: 1%;
+		padding-top: 0.5%;
+		padding-bottom: 0.5%;
+		border-radius: 10px;
+		display: flex;
+		flex-direction: column;
+		.teamName 
+		{
+			color: white;
+			font-size: 25px;
+			font-family: Roboto;
+		}
+		.timeLeft
+		{
+			color: white;
+			font-family: Roboto;
+			font-size: 25px;
+		}
+		.roundCount
+		{
+			color: white;
+			font-family: Roboto;
+			font-size: 25px;
+		}
+	}
+}

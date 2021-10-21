@@ -1,6 +1,7 @@
-﻿
-using Sandbox;
+﻿using Sandbox;
 using Sandbox.UI;
+using Sandbox.UI.Construct;
+using Sandbox.UI.Tests;
 using System;
 
 public partial class KillFeed : Sandbox.UI.KillFeed
@@ -20,9 +21,9 @@ public partial class KillFeed : Sandbox.UI.KillFeed
 				{
 					if (!string.IsNullOrEmpty(wep.Icon))
 					{
-						var panelBackground = new PanelBackground();
-						panelBackground.Texture = Texture.Load(wep.Icon);
-						e.Icon.Style.Background = panelBackground;
+						// var panelBackground = new PanelBackground();
+						// panelBackground.Texture = Texture.Load(wep.Icon);
+						// e.Icon.Style.Background = panelBackground;
 						e.Icon.SetClass("close", false);
 						killWeapon.Delete();
 
@@ -33,9 +34,9 @@ public partial class KillFeed : Sandbox.UI.KillFeed
 				{
 					if (!string.IsNullOrEmpty(car.Icon))
 					{
-						var panelBackground = new PanelBackground();
-						panelBackground.Texture = Texture.Load(car.Icon);
-						e.Icon.Style.Background = panelBackground;
+						// var panelBackground = new PanelBackground();
+						// panelBackground.Texture = Texture.Load(car.Icon);
+						// e.Icon.Style.Background = panelBackground;
 						e.Icon.SetClass("close", false);
 						killWeapon.Delete();
 

@@ -26,6 +26,7 @@ public partial class SandboxHud : HudEntity<RootPanel>
 		RootPanel.AddChild<Health>();
 		RootPanel.AddChild<ClipAmmo>();
 		RootPanel.AddChild<CurrentWeaponName>();
+ 		RootPanel.AddChild<SpawnMenu>();
 		RootPanel.AddChild<IntroScreen>();
 		RootPanel.AddChild<InfoBar>();
 		RootPanel.AddChild<TopBar>();
